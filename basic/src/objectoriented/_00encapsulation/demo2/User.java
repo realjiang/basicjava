@@ -1,4 +1,4 @@
-package objectoriented.encapsulation.demo2;
+package objectoriented._00encapsulation.demo2;
 
 /**
  * 标题: 用户

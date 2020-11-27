@@ -1,4 +1,4 @@
-package objectoriented.encapsulation.demo1;
+package objectoriented._00encapsulation.demo1;
 
 /**
  * 标题: 书
