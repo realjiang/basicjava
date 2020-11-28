@@ -1,9 +1,9 @@
-package objectoriented._01case_School;
+package objectoriented._01case_school.info;
 
 /**
  * 标题: 专业
  *
- * @Author: Jiang yuting
+ * @Author: Jiang
  * @Date: 2020/11/27 15:45
  */
 public class Major {

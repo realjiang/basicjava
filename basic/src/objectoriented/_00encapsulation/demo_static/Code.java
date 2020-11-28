@@ -1,4 +1,4 @@
-package objectoriented._00encapsulation.staticDemo;
+package objectoriented._00encapsulation.demo_static;
 
 /**
  * 标题: 代码块

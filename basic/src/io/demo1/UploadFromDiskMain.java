@@ -1,13 +1,8 @@
 package io.demo1;
 
-import utils.IdUtil;
-
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.ArrayList;
-import java.util.Date;
 
 /**
  * 标题: 获取本地文件

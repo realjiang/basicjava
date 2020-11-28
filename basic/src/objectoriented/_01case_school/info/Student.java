@@ -1,9 +1,9 @@
-package objectoriented._01case_School;
+package objectoriented._01case_school.info;
 
 /**
  * 标题: 学生
  *
- * @Author: Jiang yuting
+ * @Author: Jiang
  * @Date: 2020/11/27 15:39
  */
 public class Student {
@@ -57,8 +57,9 @@ public class Student {
     public void setSex(String sex) {
         if (!"男".equals(sex) && !"女".equals(sex)) {
             this.sex = "男";
-        }
+        } else {
         this.sex = sex;
+        }
     }
 
     public int getAge() {
@@ -68,8 +69,9 @@ public class Student {
     public void setAge(int age) {
         if (age < 10 || age > 100) {
             this.age = 18;
+        } else {
+            this.age = age;
         }
-        this.age = age;
     }
 
     public Major getMajor() {
