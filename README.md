@@ -10,5 +10,6 @@
         - encapsulation - 封装
         - case_school - 综合案例
         - officesystem - 办公系统案例
+        - extends - 继承
     - generics - 泛型
     - io - IO流
