@@ -1,6 +1,7 @@
 package objectoriented._03extends.animal.test;
 
 import objectoriented._03extends.animal.info.Cat;
+import objectoriented._03extends.animal.info.Dog;
 
 /**
  * 标题:
@@ -10,9 +11,12 @@ import objectoriented._03extends.animal.info.Cat;
  */
 public class Test {
     public static void main(String[] args) {
-        Cat cat = new Cat();
-        cat.setName("花花");
-        cat.setSpecies("田园猫");
-        cat.run();
+//        Cat cat = new Cat();
+//        cat.setName("花花");
+//        cat.setSpecies("田园猫");
+//        cat.run();
+        Dog dog = new Dog();
+        System.out.println("===================");
+
     }
 }

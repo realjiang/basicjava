@@ -7,11 +7,16 @@ package objectoriented._03extends.animal.info;
  * @Date: 2020/12/2 17:45
  */
 public class Animal {
-    private String name;
+    public static String name;
     private int month;
     private String species;
-
+    //父类的构造方法不允许被继承,不允许被重写
     public Animal() {
+        System.out.println("父类无参构造");
+    }
+
+    public Animal(String name) {
+        System.out.println(name);
     }
 
     public String getName() {
