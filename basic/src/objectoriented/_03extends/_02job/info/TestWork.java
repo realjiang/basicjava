@@ -1,4 +1,4 @@
-package objectoriented._03extends.job.info;
+package objectoriented._03extends._02job.info;
 
 /**
  * 标题: 测试工作

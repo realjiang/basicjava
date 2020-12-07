@@ -1,10 +1,9 @@
-package objectoriented._03extends.vehicle_management_system.test;
+package objectoriented._03extends._03vehicle_management_system.test;
 
-import com.sun.org.apache.xml.internal.res.XMLErrorResources_tr;
-import objectoriented._03extends.vehicle_management_system.info.Bicycle;
-import objectoriented._03extends.vehicle_management_system.info.ElectricVehicle;
-import objectoriented._03extends.vehicle_management_system.info.NonMotor;
-import objectoriented._03extends.vehicle_management_system.info.Tricycle;
+import objectoriented._03extends._03vehicle_management_system.info.Bicycle;
+import objectoriented._03extends._03vehicle_management_system.info.ElectricVehicle;
+import objectoriented._03extends._03vehicle_management_system.info.NonMotor;
+import objectoriented._03extends._03vehicle_management_system.info.Tricycle;
 
 /**
  * 标题: 测试类

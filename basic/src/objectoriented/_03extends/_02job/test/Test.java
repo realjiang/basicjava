@@ -1,8 +1,8 @@
-package objectoriented._03extends.job.test;
+package objectoriented._03extends._02job.test;
 
-import objectoriented._03extends.job.info.DevelopmentWork;
-import objectoriented._03extends.job.info.TestWork;
-import objectoriented._03extends.job.info.Work;
+import objectoriented._03extends._02job.info.DevelopmentWork;
+import objectoriented._03extends._02job.info.TestWork;
+import objectoriented._03extends._02job.info.Work;
 
 /**
  * 标题: 测试类

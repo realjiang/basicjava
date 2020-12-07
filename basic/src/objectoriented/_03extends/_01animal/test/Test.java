@@ -1,7 +1,6 @@
-package objectoriented._03extends.animal.test;
+package objectoriented._03extends._01animal.test;
 
-import objectoriented._03extends.animal.info.Cat;
-import objectoriented._03extends.animal.info.Dog;
+import objectoriented._03extends._01animal.info.Dog;
 
 /**
  * 标题:

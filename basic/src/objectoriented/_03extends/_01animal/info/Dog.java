@@ -1,6 +1,4 @@
-package objectoriented._03extends.animal.info;
-
-import javax.sound.midi.SoundbankResource;
+package objectoriented._03extends._01animal.info;
 
 /**
  * 标题: 动物类
@@ -13,10 +11,12 @@ public class Dog extends Animal {
     private static String test;
 
     public Dog() {
-                super("1");
+         //super(super.hh); //写法一,
+         //super(hh); //写法二
         System.out.println("子类无参构造");
-//        super(name);
-//        super(test);
+//        super("1"); //写法三
+//        super(name); //写法四
+//        super(test); //写法无
     }
 
     public Dog(int sex) {

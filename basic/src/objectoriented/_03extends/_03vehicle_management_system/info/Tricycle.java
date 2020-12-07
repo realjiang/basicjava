@@ -1,4 +1,4 @@
-package objectoriented._03extends.vehicle_management_system.info;
+package objectoriented._03extends._03vehicle_management_system.info;
 
 /**
  * 标题: 三轮车

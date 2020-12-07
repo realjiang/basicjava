@@ -1,4 +1,4 @@
-package objectoriented._03extends.animal.info;
+package objectoriented._03extends._01animal.info;
 
 /**
  * 标题:

@@ -1,4 +1,4 @@
-package objectoriented._03extends.animal.info;
+package objectoriented._03extends._01animal.info;
 
 /**
  * 标题: 动物
@@ -10,6 +10,7 @@ public class Animal {
     public static String name;
     private int month;
     private String species;
+    public String hh;
     //父类的构造方法不允许被继承,不允许被重写
     public Animal() {
         System.out.println("父类无参构造");
