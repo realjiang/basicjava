@@ -12,7 +12,7 @@ import objectoriented._05polymorphism._01polymorphism.info.Dog;
  */
 public class Test {
     public static void main(String[] args) {
-        Animal one = new Animal();
+//        Animal one = new Animal();//报错,抽象类不允许实例化
         /**
          * 向上转型/隐式转型/自动转型   -> 父类引用指向子类实例 / 子类转为父类
          * 可以调用子类重写父类的方法,父类派生的方法,但无法调用子类独有方法
@@ -22,7 +22,7 @@ public class Test {
         Animal three;
         Dog dog = new Dog();
         three = dog;
-        one.eat();
+//        one.eat();
         two.eat();
         three.eat();
         System.out.println("==============================================");
