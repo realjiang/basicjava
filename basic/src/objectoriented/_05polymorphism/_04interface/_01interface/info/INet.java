@@ -1,4 +1,4 @@
-package objectoriented._05polymorphism._04interface.info;
+package objectoriented._05polymorphism._04interface._01interface.info;
 
 /**
  * 标题:
@@ -21,7 +21,18 @@ public interface INet {
      */
     public void network();
 
-    void connection();
+    /**
+     * 如果希望更多的接口扩展方法是支持在无实例对象产生的情况下调用,那么静态方法更佳;
+     * 如果希望实现类能更多的直接应用接口中的方法,则默认方法更适合.
+     */
+    //默认方法,带方法体,子类可以在实现类中重写,并可以通过接口的引用调用,不重写也可以
+    default void connection() {
+        System.out.println("我是接口中的默认方法");
+    }
+    //静态方法,带方法体,不能在实现类中重写,可以用接口名调用
+    static void stop() {
+        System.out.println("我是接口中的静态方法");
+    }
 }
 /**
  * 接口定义了某一批类所需要遵守的规范

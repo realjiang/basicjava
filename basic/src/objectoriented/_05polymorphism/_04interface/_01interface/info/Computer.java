@@ -1,4 +1,4 @@
-package objectoriented._05polymorphism._04interface.info;
+package objectoriented._05polymorphism._04interface._01interface.info;
 
 /**
  * 标题: 电脑

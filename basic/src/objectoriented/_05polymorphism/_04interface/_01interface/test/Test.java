@@ -1,6 +1,6 @@
-package objectoriented._05polymorphism._04interface.test;
+package objectoriented._05polymorphism._04interface._01interface.test;
 
-import objectoriented._05polymorphism._04interface.info.*;
+import objectoriented._05polymorphism._04interface._01interface.info.*;
 
 /**
  * 标题: 测试类
@@ -20,7 +20,7 @@ public class Test {
         ip.photo();
         ip = new Camera();
         ip.photo();
-        System.out.println("=============================");
+        System.out.println("=============接口中的常量================");
         System.out.println(INet.TEMP);
 //        INet.TEMP = 1;//报错,常量不能被修改
         System.out.println("-----------------------------------");
@@ -32,5 +32,11 @@ public class Test {
         System.out.println("-----------------------------------");
         SmartWatch sw = new SmartWatch();
         System.out.println(sw.TEMP);//如果是实现类的实例,则是实现类中定义的常量
+        System.out.println("=============接口中的默认方法和静态方法,jdk1.8后新增================");
+        net.connection();//实例名调用默认方法
+//        net.connection("test");//报错,重载的默认方法,接口引用调用不到
+        sw.connection("test");//重载的默认方法,需要通过实现类引用才能调到
+        System.out.println("-----------------------------------");
+        INet.stop();//接口名调用静态方法
     }
 }
