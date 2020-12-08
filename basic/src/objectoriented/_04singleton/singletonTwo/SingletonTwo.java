@@ -1,4 +1,4 @@
-package src.objectoriented._04singleton.singletonTwo;
+package objectoriented._04singleton.singletonTwo;
 
 /**
  * 懒汉式：类内实例对象创建时并不直接初始化，知道第一次调用get方法时，才会完成初始化操作.时间换空间，

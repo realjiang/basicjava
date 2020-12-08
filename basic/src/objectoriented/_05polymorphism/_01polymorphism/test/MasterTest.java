@@ -6,7 +6,7 @@ import objectoriented._05polymorphism._01polymorphism.info.Dog;
 import objectoriented._05polymorphism._01polymorphism.info.Master;
 
 /**
- * 标题:
+ * 标题: 多态知识点2
  *
  * @Author: Jiang
  * @Date: 2020/12/8 10:40

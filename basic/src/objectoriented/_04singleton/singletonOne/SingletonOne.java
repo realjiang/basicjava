@@ -1,4 +1,4 @@
-package src.objectoriented._04singleton.singletonOne;
+package objectoriented._04singleton.singletonOne;
 
 /**
  * 饿汉式：创建对象实例的时候直接初始化，空间换时间,线程安全

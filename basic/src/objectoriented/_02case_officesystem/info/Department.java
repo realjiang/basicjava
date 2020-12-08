@@ -1,4 +1,4 @@
-package objectoriented._02officesystem.info;
+package objectoriented._02case_officesystem.info;
 
 /**
  * 标题: 部门

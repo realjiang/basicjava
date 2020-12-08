@@ -1,7 +1,7 @@
 package objectoriented._03extends._04test1;
 
 /**
- * 标题: 测试重写toString
+ * 标题: [继承] - 测试重写toString
  *
  * @Author: Jiang
  * @Date: 2020/12/7 16:41

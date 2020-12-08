@@ -5,7 +5,7 @@ import objectoriented._05polymorphism._03abstract.info.Rectangle;
 import objectoriented._05polymorphism._03abstract.info.Shape;
 
 /**
- * 标题: 测试类-求面积
+ * 标题: 测试类-求面积-[抽象]编程练习
  *
  * @Author: Jiang
  * @Date: 2020/12/8 13:38

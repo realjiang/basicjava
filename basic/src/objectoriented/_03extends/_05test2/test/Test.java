@@ -5,7 +5,7 @@ import objectoriented._03extends._05test2.info.Fruits;
 import objectoriented._03extends._05test2.info.Waxberry;
 
 /**
- * 标题: 测试类
+ * 标题: 测试类 - [继承] 编程练习3
  *
  * @Author: Jiang
  * @Date: 2020/12/7 17:09

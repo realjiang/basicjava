@@ -1,5 +1,8 @@
-package src.objectoriented._04singleton.singletonOne;
+package objectoriented._04singleton.singletonOne;
 
+/**
+ * 饿汉式-测试类
+ */
 public class Test {
     public static void main(String[] args) {
         //SingletonOne s = new SingletonOne();//报错，因为构造方法以及私有化了，不能在类外调用了。

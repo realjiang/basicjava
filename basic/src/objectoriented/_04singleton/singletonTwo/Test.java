@@ -1,7 +1,8 @@
-package src.objectoriented._04singleton.singletonTwo;
+package objectoriented._04singleton.singletonTwo;
 
-import src.objectoriented._04singleton.singletonOne.SingletonOne;
-
+/**
+ * 懒汉式-测试类
+ */
 public class Test {
     public static void main(String[] args) {
 //        SingletonTwo s = new SingletonTwo();//报错，因为构造方法以及私有化了，不能在类外调用了。

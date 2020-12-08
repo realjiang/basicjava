@@ -2,11 +2,10 @@ package objectoriented._05polymorphism._04interface._02test1.test;
 
 import objectoriented._05polymorphism._04interface._02test1.info.Balloon;
 import objectoriented._05polymorphism._04interface._02test1.info.Bird;
-import objectoriented._05polymorphism._04interface._02test1.info.IFly;
 import objectoriented._05polymorphism._04interface._02test1.info.Plane;
 
 /**
- * 标题:测试类
+ * 标题:测试类 - 接口编程练习
  *
  * @Author: Jiang
  * @Date: 2020/12/8 15:14

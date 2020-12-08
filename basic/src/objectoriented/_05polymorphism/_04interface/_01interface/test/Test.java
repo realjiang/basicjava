@@ -3,7 +3,7 @@ package objectoriented._05polymorphism._04interface._01interface.test;
 import objectoriented._05polymorphism._04interface._01interface.info.*;
 
 /**
- * 标题: 测试类
+ * 标题: 测试类 - 接口知识点
  *
  * @Author: Jiang
  * @Date: 2020/12/8 14:10

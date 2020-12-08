@@ -1,9 +1,15 @@
-package src.objectoriented._03extends._06test3.test;
+package objectoriented._03extends._06test3.test;
 
-import src.objectoriented._03extends._06test3.info.Car;
-import src.objectoriented._03extends._06test3.info.HomeCar;
-import src.objectoriented._03extends._06test3.info.Taxi;
+import objectoriented._03extends._06test3.info.Car;
+import objectoriented._03extends._06test3.info.HomeCar;
+import objectoriented._03extends._06test3.info.Taxi;
 
+/**
+ * 标题: 测试类 - [继承] 编程练习4
+ *
+ * @Author: Jiang
+ * @Date: 2020/12/7 17:09
+ */
 public class Test {
     public static void main(String[] args) {
         //实例化父类对象，并传入两组相同的属性值

@@ -1,8 +1,8 @@
-package objectoriented._02officesystem.test;
+package objectoriented._02case_officesystem.test;
 
-import objectoriented._02officesystem.info.Department;
-import objectoriented._02officesystem.info.Post;
-import objectoriented._02officesystem.info.Staff;
+import objectoriented._02case_officesystem.info.Department;
+import objectoriented._02case_officesystem.info.Post;
+import objectoriented._02case_officesystem.info.Staff;
 
 /**
  * 标题: 测试类

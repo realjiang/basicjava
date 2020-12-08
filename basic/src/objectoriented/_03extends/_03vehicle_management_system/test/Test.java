@@ -6,7 +6,7 @@ import objectoriented._03extends._03vehicle_management_system.info.NonMotor;
 import objectoriented._03extends._03vehicle_management_system.info.Tricycle;
 
 /**
- * 标题: 测试类
+ * 标题: 测试类 - [继承]编程练习2
  *
  * @Author: Jiang
  * @Date: 2020/12/7 15:18

@@ -5,7 +5,7 @@ import objectoriented._05polymorphism._01polymorphism.info.Cat;
 import objectoriented._05polymorphism._01polymorphism.info.Dog;
 
 /**
- * 标题:
+ * 标题: 多态知识点1
  *
  * @Author: Jiang yuting
  * @Date: 2020/12/8 10:05

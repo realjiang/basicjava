@@ -1,4 +1,4 @@
-package src.objectoriented._03extends._06test3.info;
+package objectoriented._03extends._06test3.info;
 
 public class Taxi extends Car {
     private String company;

@@ -1,6 +1,8 @@
-package src.objectoriented._04singleton.singletonTwoTest;
+package objectoriented._04singleton.singletonTwoTest;
 
-
+/**
+ * 懒汉式-练习
+ */
 public class Test {
     public static void main(String[] args) {
         System.out.println("创建1号皇帝对象");

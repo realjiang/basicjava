@@ -6,7 +6,7 @@ import objectoriented._05polymorphism._02test1.info.Dog;
 import objectoriented._05polymorphism._02test1.info.Sheep;
 
 /**
- * 标题:
+ * 标题: 测试类 - 多态编程练习
  *
  * @Author: Jiang
  * @Date: 2020/12/8 11:15

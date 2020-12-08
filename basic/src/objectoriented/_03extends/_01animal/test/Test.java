@@ -3,7 +3,7 @@ package objectoriented._03extends._01animal.test;
 import objectoriented._03extends._01animal.info.Dog;
 
 /**
- * 标题:
+ * 标题: 继承知识点1
  *
  * @Author: Jiang
  * @Date: 2020/12/2 17:58

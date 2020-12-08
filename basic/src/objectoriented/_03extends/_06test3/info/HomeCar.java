@@ -1,6 +1,6 @@
-package src.objectoriented._03extends._06test3.info;
+package objectoriented._03extends._06test3.info;
 
-public final class HomeCar extends Car{
+public final class HomeCar extends Car {
     private int num;
 
     /**

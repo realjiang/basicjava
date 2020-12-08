@@ -5,7 +5,7 @@ import objectoriented._03extends._02job.info.TestWork;
 import objectoriented._03extends._02job.info.Work;
 
 /**
- * 标题: 测试类
+ * 标题: 测试类 - [继承]编程练习1
  *
  * @Author: Jiang
  * @Date: 2020/12/3 16:58

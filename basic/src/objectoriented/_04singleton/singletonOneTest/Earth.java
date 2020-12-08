@@ -1,4 +1,4 @@
-package src.objectoriented._04singleton.singletonOneTest;
+package objectoriented._04singleton.singletonOneTest;
 
 public class Earth {
     private Earth() {

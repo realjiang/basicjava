@@ -1,4 +1,4 @@
-package src.objectoriented._04singleton.singletonTwoTest;
+package objectoriented._04singleton.singletonTwoTest;
 
 public class Emperor {
     private Emperor() {
