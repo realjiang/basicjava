@@ -14,6 +14,6 @@
         - singleton - 单例模式
             - singletonOne 饿汉式
             - singletonTwo 懒汉式
-        - Polymorphism - 多态
+        - polymorphism - 多态
     - generics - 泛型
     - io - IO流
