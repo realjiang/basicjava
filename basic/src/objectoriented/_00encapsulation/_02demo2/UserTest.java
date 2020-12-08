@@ -1,4 +1,4 @@
-package objectoriented._00encapsulation.demo2;
+package objectoriented._00encapsulation._02demo2;
 
 /**
  * 标题: 测试类

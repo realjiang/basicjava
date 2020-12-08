@@ -8,6 +8,7 @@
         - collection - 集合相关
     - objectoriented - 面向对象
         - encapsulation - 封装
+            - static - 静态
         - case_school - 案例1：综合案例
         - officesystem - 案例2：办公系统案例
         - extends - 继承
@@ -15,5 +16,7 @@
             - singletonOne 饿汉式
             - singletonTwo 懒汉式
         - polymorphism - 多态
+            - abstract - 抽象
+            - interface - 接口
     - generics - 泛型
     - io - IO流
