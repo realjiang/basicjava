@@ -10,4 +10,8 @@ public class ThirdPhone {
     public void game() {
         System.out.println("手机可以玩游戏");
     }
+
+    public void connection() {
+        System.out.println("我是三代手机的默认方法");
+    }
 }

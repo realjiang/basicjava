@@ -11,5 +11,12 @@ public interface IPhoto {
      * 具有拍照的能力
      */
     public void photo();
+
+    /**
+     * 与INet接口中同名的默认方法
+     */
+    default void connection() {
+        System.out.println("我是接口中的默认方法");
+    }
 }
 

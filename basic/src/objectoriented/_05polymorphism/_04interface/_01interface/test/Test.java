@@ -38,5 +38,17 @@ public class Test {
         sw.connection("test");//重载的默认方法,需要通过实现类引用才能调到
         System.out.println("-----------------------------------");
         INet.stop();//接口名调用静态方法
+        System.out.println("---------------多接口中,同名默认方法--------------------");
+        INet net2 = new FourthPhone();
+        net2.connection();
+        IPhoto ip2 = new FourthPhone();
+        ip2.connection();
+        System.out.println("---------------多接口+继承类中,同名默认方法--------------------");
+        //如果实现类中没有重写,则默认调用父类中的同名方法;如果实现类中重写了,则调用的是实现类重写后的
+        INet net3 = new FourthPhone();
+        net3.connection();
+        IPhoto ip3 = new FourthPhone();
+        ip3.connection();
+
     }
 }
