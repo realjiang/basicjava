@@ -1,9 +1,9 @@
 package objectoriented._05polymorphism._01polymorphism.info;
 
 /**
- * 标题:
+ * 标题: 狗
  *
- * @Author: Jiang yuting
+ * @Author: Jiang
  * @Date: 2020/12/8 9:58
  */
 public class Dog extends Animal {

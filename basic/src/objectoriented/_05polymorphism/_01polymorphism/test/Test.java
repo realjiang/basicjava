@@ -16,9 +16,12 @@ public class Test {
         /**
          * 向上转型/隐式转型/自动转型   -> 父类引用指向子类实例 / 子类转为父类
          * 可以调用子类重写父类的方法,父类派生的方法,但无法调用子类独有方法
+         * 注意:父类中的静态方法无法被子类重写,所以向上转型后,只能调用到父类原有的静态方法
          */
         Animal two = new Cat();
-        Animal three = new Dog();
+        Animal three;
+        Dog dog = new Dog();
+        three = dog;
         one.eat();
         two.eat();
         three.eat();
@@ -63,5 +66,11 @@ public class Test {
         if (two instanceof Object) {
             System.out.println("Object");
         }
+        System.out.println("===========================================");
+        Animal animal = new Cat();
+        animal.say(); //子类不能重写父类静态方法,即使写的方式和重写一样,但是还是属于子类特有的静态方法,这句执行的是父类原有的静态方法
+        //如果要调用子类自己的静态方法,可以通过向下转型 将animal再转回Cat类型,就可以了
+        Cat cat = (Cat) animal;
+        cat.say();
     }
 }

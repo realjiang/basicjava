@@ -14,6 +14,10 @@ public class Animal {
         System.out.println("动物得吃东西");
     }
 
+    public static void say() {
+        System.out.println("动物喊叫");
+    }
+
     public Animal() {
     }
 

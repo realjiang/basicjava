@@ -1,9 +1,9 @@
 package objectoriented._05polymorphism._01polymorphism.info;
 
 /**
- * 标题:
+ * 标题: 猫
  *
- * @Author: Jiang yuting
+ * @Author: Jiang
  * @Date: 2020/12/8 9:58
  */
 public class Cat extends Animal{
@@ -17,6 +17,9 @@ public class Cat extends Animal{
         System.out.println("猫吃鱼~~");
     }
 
+    public static void say() {
+        System.out.println("喵~");
+    }
     public Cat() {
     }
 
@@ -30,5 +33,9 @@ public class Cat extends Animal{
 
     public void setWeight(double weight) {
         this.weight = weight;
+    }
+
+    public void playball() {
+        System.out.println("小猫喜欢玩线球");
     }
 }
