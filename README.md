@@ -10,7 +10,7 @@
         - encapsulation - 封装
             - static - 静态
         - case_school - 案例1：综合案例
-        - officesystem - 案例2：办公系统案例
+        - case_officesystem - 案例2：办公系统案例
         - extends - 继承
         - singleton - 单例模式
             - singletonOne 饿汉式
@@ -18,5 +18,10 @@
         - polymorphism - 多态
             - abstract - 抽象
             - interface - 接口
+            - innerclass - 内部类
+                - memberinnerclass - 成员内部类
+                - staticinnerclass - 静态内部类
+                - methodinnerclass - 方法内部类
+                - anon_innerclass  - 匿名内部类
     - generics - 泛型
     - io - IO流
