@@ -8,10 +8,10 @@ import java.io.InputStream;
 /**
  * 标题: MultipartFile类型转换
  *
- * @Author: Jiang yuting
+ * @Author: Jiang
  * @Date: 2020/11/28 14:40
  */
-public class MultipartFileUtil {
+public class MultipartFileToFileUtil {
     /**
      * File类型转MultipartFile类型
      * @param file file文件
