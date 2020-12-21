@@ -11,7 +11,7 @@
 ///**
 // * 标题: 批量上传service
 // *
-// * @Author: Jiang yuting
+// * @Author: Jiang
 // * @Date: 2020/11/25 14:30
 // */
 //public interface UploadFromDiskService {

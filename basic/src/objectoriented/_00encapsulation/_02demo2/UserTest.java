@@ -3,7 +3,7 @@ package objectoriented._00encapsulation._02demo2;
 /**
  * 标题: 测试类
  *
- * @Author: Jiang yuting
+ * @Author: Jiang
  * @Date: 2020/11/26 16:21
  */
 public class UserTest {

@@ -7,7 +7,7 @@ import objectoriented._05polymorphism._01polymorphism.info.Dog;
 /**
  * 标题: 多态知识点1
  *
- * @Author: Jiang yuting
+ * @Author: Jiang
  * @Date: 2020/12/8 10:05
  */
 public class Test {

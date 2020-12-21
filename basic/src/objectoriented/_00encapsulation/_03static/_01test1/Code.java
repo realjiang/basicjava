@@ -3,7 +3,7 @@ package objectoriented._00encapsulation._03static._01test1;
 /**
  * 标题: 代码块
  *
- * @Author: Jiang yuting
+ * @Author: Jiang
  * @Date: 2020/11/27 15:17
  */
 public class Code {

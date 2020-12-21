@@ -23,5 +23,7 @@
                 - staticinnerclass - 静态内部类
                 - methodinnerclass - 方法内部类
                 - anon_innerclass  - 匿名内部类
+        - exception - 异常
+        - wrap - 包装类
     - generics - 泛型
     - io - IO流

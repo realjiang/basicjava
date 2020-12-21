@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * 标题: 集合排序
  *
- * @Author: Jiang yuting
+ * @Author: Jiang
  * @Date: 2020/11/30 9:28
  */
 public class Sort {
