@@ -1,4 +1,4 @@
-package _04string._3demo2;
+package src._04string._3demo2;
 
 import java.io.UnsupportedEncodingException;
 
