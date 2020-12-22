@@ -8,6 +8,7 @@ package objectoriented._07wrap._1demo1;
  */
 public class WrapTestOne {
     public static void main(String[] args) {
+        // 包装类:解决java基本数据类型不具有对象化能力的问题,所有包装类都存放在,java.lang这个包内
         /**装箱:把基本数据类型转换为包装类*/
         //1.自动装箱
         int t1 = 2;
