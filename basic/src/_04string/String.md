@@ -9,5 +9,5 @@
    从字符串与byte数组间相互转换的例题可以看出,如果编码是GBK格式,则2个byte类型的数据
    表示一个汉字,如果编码是utf-8格式,则3个byte类型的数据表示一个汉字.而字母和空格还是
    用一个字节表示.如图.
-   ![avator](../../images/String1.png)
+   ![avator](../images/String1.png)
  
