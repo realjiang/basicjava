@@ -20,10 +20,10 @@
                 - anon_innerclass  - 匿名内部类
     - _02exception - 异常
     - _03wrap - 包装类
-    - _04String - 字符串
-    - _05Collection - 集合
+    - _04string - 字符串
+    - _05collection - 集合
     - _06generics - 泛型
-    - _07 Thread - 线程/多线程
+    - _07thread - 线程/多线程
     - _08io - 输入输出流
     - constants - 常量
     - utils - 工具类
