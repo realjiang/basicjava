@@ -1,12 +1,7 @@
 # java代码总结
 **陆续更新中~~~**
 - basic - 基础代码
-    - constants - 常量
-    - utils - 工具类
-        - id - id工具类
-        - trans - 类型转换工具类
-        - collection - 集合相关
-    - objectoriented - 面向对象
+    - _01objectoriented - 面向对象
         - encapsulation - 封装
             - static - 静态
         - case_school - 案例1：综合案例
@@ -23,7 +18,15 @@
                 - staticinnerclass - 静态内部类
                 - methodinnerclass - 方法内部类
                 - anon_innerclass  - 匿名内部类
-        - exception - 异常
-        - wrap - 包装类
-    - generics - 泛型
-    - io - IO流
+    - _02exception - 异常
+    - _03wrap - 包装类
+    - _04String - 字符串
+    - _05Collection - 集合
+    - _06generics - 泛型
+    - _07 Thread - 线程/多线程
+    - _08io - 输入输出流
+    - constants - 常量
+    - utils - 工具类
+        - id - id工具类
+        - trans - 类型转换工具类
+        - collection - 集合相关
