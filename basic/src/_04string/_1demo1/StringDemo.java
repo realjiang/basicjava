@@ -8,7 +8,7 @@ import java.io.UnsupportedEncodingException;
  * @Author: Jiang
  * @Date: 2020/12/22 15:35
  */
-public class StringTestOne {
+public class StringDemo {
     public static void main(String[] args) throws UnsupportedEncodingException {
 
         /**

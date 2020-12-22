@@ -6,7 +6,7 @@ package _04string._1demo1;
  * @Author: Jiang
  * @Date: 2020/12/22 15:44
  */
-public class StringTestTwo {
+public class StringDemo1 {
     public static void main(String[] args) {
         //定义一个字符串: "JAVA 编程 基础"
         String str = "JAVA 编程 基础";
