@@ -13,11 +13,15 @@ public class WrapTestOne {
         int t1 = 2;
         Integer t2 = t1;
         //2.手动装箱
+        //方式一:
         Integer t3 = new Integer(t1);
+        //方式二:
+        Integer t33 = Integer.valueOf(t1);
         //测试
         System.out.println("int类型变量t1="+t1);
         System.out.println("Integer类型变量t2="+t2);
         System.out.println("Integer类型变量t3="+t3);
+        System.out.println("Integer类型变量t33="+t33);
         System.out.println("=========================================");
         /**拆箱:把包装类转换为基本数据类型*/
         //1.自动拆箱
