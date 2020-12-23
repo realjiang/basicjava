@@ -1,0 +1,58 @@
+package _05collection._1list._3demo2;
+
+import java.util.Date;
+
+/**
+ * 标题: 公告类
+ *
+ * @Author: Jiang 
+ * @Date: 2020/12/23 10:03
+ */
+public class Notice {
+    private int id;//ID
+    private String title;//标题
+    private String creator;//创建人
+    private Date createTime;//创建时间
+
+    public Notice() {
+    }
+
+    public Notice(int id, String title, String creator, Date createTime) {
+        this.setId(id);
+        this.setTitle(title);
+        this.setCreator(creator);
+        this.setCreateTime(createTime);
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getCreator() {
+        return creator;
+    }
+
+    public void setCreator(String creator) {
+        this.creator = creator;
+    }
+
+    public Date getCreateTime() {
+        return createTime;
+    }
+
+    public void setCreateTime(Date createTime) {
+        this.createTime = createTime;
+    }
+}

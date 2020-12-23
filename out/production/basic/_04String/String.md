@@ -11,4 +11,16 @@
    表示一个汉字,如果编码是utf-8格式,则3个byte类型的数据表示一个汉字.而字母和空格还是
    用一个字节表示.如图.
    ![avator](../images/String1.png)
- 
+ 3.StringBuilder
+ 1）String 和 StringBuilder的区别：
+     String具有不可变性，而StringBuilder不具备。
+     String比StringBuilder执行效率低，因为在运行时产生一些String对象，这样会耗费一些时间。
+     建议：当频繁操作字符串时，使用StringBuilder。
+   ![avator](../images/sb1.png)
+   ![avator](../images/sb2.png)
+   ![avator](../images/sb3.png)
+ 2）StringBuilder和StringBuffer的区别：
+    二者基本相似。没有StringBuilder前，常用StringBuffer。
+    StringBuffer是线程安全的，StringBuilder则不是，所以StringBuilder性能略高。
+    多数情况下都是单线程处理字符串，而线程安全的概念用于多线程，所以常用StringBuilder。
+    
