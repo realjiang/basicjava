@@ -3,7 +3,7 @@ package _05collection._4sort.comparator._1demo;
 import java.util.*;
 
 /**
- * 标题: 测试类
+ * 标题: 测试类 - 需要另外写类来实现Comparator接口
  *
  * @Author: Jiang
  * @Date: 2020/12/23 12:55

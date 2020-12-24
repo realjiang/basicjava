@@ -31,8 +31,8 @@
         - Set
         - Map
         - sort - 排序
-            - Comparator接口
-            - Comparable接口
+            - Comparator接口(位于java.util)
+            - Comparable接口(位于java.lang)
     - _06generics - 泛型
     - _07thread - 线程/多线程
     - _08io - 输入输出流
