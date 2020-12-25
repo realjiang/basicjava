@@ -20,7 +20,7 @@
    ![avator](../images/sb2.png)
    ![avator](../images/sb3.png)
  2）StringBuilder和StringBuffer的区别：
-    二者基本相似。
+    二者基本相似。没有StringBuilder前，常用StringBuffer。
     StringBuffer是线程安全的，StringBuilder则不是，所以StringBuilder性能略高。
     多数情况下都是单线程处理字符串，而线程安全的概念用于多线程，所以常用StringBuilder。
     
