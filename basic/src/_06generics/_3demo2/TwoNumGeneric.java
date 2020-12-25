@@ -1,5 +1,10 @@
 package src._06generics._3demo2;
 
+/**
+ * 两个参数的泛型类
+ * @param <T> 参数1
+ * @param <X> 参数二
+ */
 public class TwoNumGeneric<T,X> {
     private T num1;
     private X num2;

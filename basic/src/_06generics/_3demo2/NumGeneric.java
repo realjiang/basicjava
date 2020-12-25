@@ -1,5 +1,9 @@
 package src._06generics._3demo2;
 
+/**
+ * 一个参数的泛型类
+ * @param <T> 参数
+ */
 public class NumGeneric<T> {
     private T num;
 
