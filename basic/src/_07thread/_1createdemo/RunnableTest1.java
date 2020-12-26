@@ -1,7 +1,7 @@
 package src._07thread._1createdemo;
 
 /**
- * 通过实现 Runnable接口的方式实现线程
+ * 03——通过实现 Runnable接口的方式实现线程
  */
 class PrintRunnable implements Runnable {
     int i = 1;//case2
