@@ -1,4 +1,4 @@
-package src._07thread._createtest;
+package src._07thread._2createtest;
 
 /**
  * 1、通过实现Runnable接口的方式创建线程类Cat和Dog，run()方法实现的功能为：加入一个循环长度为3的for循环，分别循环输出信息“A cat”和“A dog”。

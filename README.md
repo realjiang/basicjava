@@ -34,7 +34,12 @@
             - Comparator接口(位于java.util)
             - Comparable接口(位于java.lang)
     - _06generics - 泛型
+        - 泛型作为方法参数
+        - 自定义泛型类
+        - 自定义泛型方法
     - _07thread - 线程/多线程
+        - create - 创建线程
+        - status - 线程的状态
     - _08io - 输入输出流
     - constants - 常量
     - utils - 工具类
