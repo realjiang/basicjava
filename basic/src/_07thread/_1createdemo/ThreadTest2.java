@@ -1,7 +1,7 @@
-package src._07thread._1create;
+package src._07thread._1createdemo;
 
 /**
- * 继承Thread类来实现线程 + 参数name
+ * 02——继承Thread类来实现 带名字的 线程
  */
 class MyThread2 extends Thread {
     public MyThread2(String name) {

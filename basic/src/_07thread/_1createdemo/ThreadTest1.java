@@ -1,9 +1,7 @@
-package src._07thread._1create;
-
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+package src._07thread._1createdemo;
 
 /**
- * 继承Thread类来实现线程
+ * 01——继承Thread类来实现线程
  */
 class MyThread1 extends Thread {
     /**
