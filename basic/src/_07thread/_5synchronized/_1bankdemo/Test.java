@@ -17,7 +17,6 @@ public class Test {
 			draw.join();
 			save.join();
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		System.out.println(bank);

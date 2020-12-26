@@ -43,7 +43,6 @@ public class Bank {
 		try {
 			Thread.sleep(1000);
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		// 修改余额，存100元
@@ -68,7 +67,6 @@ public class Bank {
 			try {
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 			// 修改帐户余额

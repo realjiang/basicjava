@@ -42,6 +42,7 @@
         - status - 线程的状态
         - priority - 线程的优先级
         - synchronized - 线程同步
+        - communication - 线程间通信
     - _08io - 输入输出流
     - constants - 常量
     - utils - 工具类
