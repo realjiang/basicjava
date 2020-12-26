@@ -1,4 +1,4 @@
-package src._07thread._3statusdemo;
+package src._07thread._3status;
 
 /**
  * join方法 - 抢占资源

@@ -1,4 +1,4 @@
-package src._07thread._4prioritydemo;
+package src._07thread._4priority;
 
 /**
  * 线程的优先级：
