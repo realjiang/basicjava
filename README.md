@@ -40,6 +40,7 @@
     - _07thread - 线程/多线程
         - create - 创建线程
         - status - 线程的状态
+        - priority - 线程的优先级
     - _08io - 输入输出流
     - constants - 常量
     - utils - 工具类
