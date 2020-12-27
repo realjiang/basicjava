@@ -44,6 +44,11 @@
         - synchronized - 线程同步
         - communication - 线程间通信
     - _08io - 输入输出流
+        - file File类
+        - path 绝对路径和相对路径
+        - 字节流
+        - 字符流
+        - 对象的序列化与反序列化
     - constants - 常量
     - utils - 工具类
         - id - id工具类
