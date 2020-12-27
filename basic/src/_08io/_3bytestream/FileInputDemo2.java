@@ -4,6 +4,9 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
+/**
+ * 字节输入流-2
+ */
 public class FileInputDemo2 {
 
 	public static void main(String[] args) {

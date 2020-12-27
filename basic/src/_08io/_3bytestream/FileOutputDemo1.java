@@ -5,6 +5,9 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+/**
+ * 字节输出流-2 文件拷贝
+ */
 public class FileOutputDemo1 {
 
 	public static void main(String[] args) {

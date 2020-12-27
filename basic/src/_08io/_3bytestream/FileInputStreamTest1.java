@@ -6,6 +6,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 
 /**
+ * 字节输入流 - 编程练习1
  * 老师让程序员小马统计英文演讲稿speech.txt文件中共有多少个字符，
  * 并显示所有内容以便在演讲开始前有个准备，假如你是小马，请完成老师教给你的任务
  */

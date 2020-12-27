@@ -1,5 +1,9 @@
 package src._08io._3bytestream;
 
+/**
+ * 字节输入流-1
+ */
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
