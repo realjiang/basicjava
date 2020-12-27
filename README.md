@@ -48,7 +48,7 @@
         - path - 绝对路径和相对路径
         - bytestream - 字节流
         - charstream - 字符流
-        - 对象的序列化与反序列化
+        - serial - 对象的序列化与反序列化
     - constants - 常量
     - utils - 工具类
         - id - id工具类
