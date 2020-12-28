@@ -3,7 +3,7 @@ package src._09comprehensivecase._1player;
 import java.util.Scanner;
 
 /**
- * 标题: 测试类
+ * 标题: 播放器案例-测试类
  *
  * @Author: Jiang
  * @Date: 2020/12/28 16:01
