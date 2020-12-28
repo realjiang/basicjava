@@ -1,4 +1,4 @@
-package _09comprehensivecase._1player;
+package src._09comprehensivecase._1player;
 
 import java.util.Scanner;
 
@@ -146,7 +146,8 @@ public class TestDemo {
     public void test() {
         TestDemo td = new TestDemo();
         Scanner sc = new Scanner(System.in);
-        int input1=0,input2=0,input=0;
+        int input=0,input1=0,input2=0;
+        String input3="";
         //创建一个播放列表容器（播放器）
         PlayListCollection plc=new PlayListCollection();
         //创建主播放列表
@@ -191,6 +192,8 @@ public class TestDemo {
                                     mainPlayList.addToPlayList(song);
                                     //mainPlayList.displayAllSong();
                                 }
+                                System.out.println("添加完成！");
+                                mainPlayList.disPlayAllSong();
                                 break;
                             case 2:
                                 System.out.println("将歌曲添加到普通播放列表");
@@ -224,13 +227,13 @@ public class TestDemo {
                                         }else{
                                             //如果歌曲存在于主播放列表，则直接添加到现在的播放列表
                                             favouritePlayList.addToPlayList(song);
-                                            System.out.println("该歌曲在在主播放列表中已存在,已直接添加入当前列表");
+                                            System.out.println("该歌曲在在主播放列表中已存在,已直接添加入当前列表！");
                                         }
                                     }
                                     //显示播放列表中的歌曲信息
-                                    System.out.println("主播放列表:");
+                                    System.out.println("【主播放列表】");
                                     mainPlayList.disPlayAllSong();
-                                    System.out.println("普通播放列表：");
+                                    System.out.println("【普通播放列表】");
                                     favouritePlayList.disPlayAllSong();
                                 }
                                 break;
@@ -247,7 +250,7 @@ public class TestDemo {
                                     String strId1=sc.next();
                                     Song s=pl.searchSongById(strId1);
                                     if(s==null){
-                                        System.out.println("该歌曲在播放列表"+strPlayListName1+"中不存在！");
+                                        System.out.println("该歌曲在播放列表【"+strPlayListName1+"】中不存在！");
                                     }else{
                                         System.out.println("该歌曲的信息为：");
                                         System.out.println(s);
@@ -256,15 +259,72 @@ public class TestDemo {
                                 break;
                             case 4:
                                 System.out.println("通过歌曲名称查询播放列表中的歌曲");
+                                System.out.println("请输入要查询的播放列表名称：");
+                                String strPlayListName2=sc.next();
+                                //查询播放列表是否存在
+                                PlayList pl1=plc.searchPlayListByName(strPlayListName2);
+                                if(pl1==null){
+                                    System.out.println("该播放列表不存在！");break;
+                                }else{
+                                    System.out.println("请输入要查询的歌曲名称：");
+                                    String strName1=sc.next();
+                                    Song s=pl1.searchSongByName(strName1);
+                                    if(s==null){
+                                        System.out.println("该歌曲在播放列表"+strPlayListName2+"中不存在！");
+                                    }else{
+                                        System.out.println("该歌曲的信息为：");
+                                        System.out.println(s);
+                                    }
+                                }
                                 break;
                             case 5:
                                 System.out.println("修改播放列表中的歌曲");
+                                System.out.println("请输入要修改歌曲所在的播放列表名称：");
+                                String strPlayListName3=sc.next();
+                                //查询播放列表是否存在
+                                PlayList pl2=plc.searchPlayListByName(strPlayListName3);
+                                if(pl2==null){
+                                    System.out.println("该播放列表不存在！");break;
+                                }else{
+                                    System.out.println("请输入要修改的歌曲id：");
+                                    String strId2=sc.next();
+                                    System.out.println("请输入修改后的歌曲名称：");
+                                    String strPlayListName4=sc.next();
+                                    System.out.println("请输入修改后的歌曲演唱者：");
+                                    String strSinger=sc.next();
+                                    Song song = new Song(strId2,strPlayListName4,strSinger);
+                                    pl2.updateSong(strId2,song);
+                                    System.out.print("更新后");
+                                    pl2.disPlayAllSong();
+                                }
                                 break;
                             case 6:
                                 System.out.println("删除播放列表中的歌曲");
+                                System.out.println("请输入要删除歌曲所在的播放列表名称：");
+                                String strPlayListName4=sc.next();
+                                //查询播放列表是否存在
+                                PlayList pl3=plc.searchPlayListByName(strPlayListName4);
+                                if(pl3==null){
+                                    System.out.println("该播放列表不存在！");break;
+                                }else{
+                                    System.out.println("请输入要删除的歌曲id：");
+                                    String strId2=sc.next();
+                                    pl3.deleteSong(strId2);
+                                    System.out.print("删除后");
+                                    pl3.disPlayAllSong();
+                                }
                                 break;
                             case 7:
                                 System.out.println("显示播放列表中的所有歌曲");
+                                System.out.println("请输入要查询的播放列表名称：");
+                                String strPlayListName5=sc.next();
+                                //查询播放列表是否存在
+                                PlayList pl4=plc.searchPlayListByName(strPlayListName5);
+                                if(pl4==null){
+                                    System.out.println("该播放列表不存在！");break;
+                                }else{
+                                    pl4.disPlayAllSong();
+                                }
                                 break;
                             default:
                                 System.out.println("该歌曲没有对应的操作！");

@@ -1,4 +1,4 @@
-package _09comprehensivecase._1player;
+package src._09comprehensivecase._1player;
 
 import java.util.Objects;
 

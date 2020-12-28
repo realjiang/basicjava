@@ -1,4 +1,4 @@
-package _09comprehensivecase._1player;
+package src._09comprehensivecase._1player;
 
 import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
 
@@ -35,8 +35,12 @@ public class PlayList {
     //显示播放列表中所有歌曲
     public void disPlayAllSong() {
         System.out.println("播放列表中的所有歌曲为:");
-        for (Song item : musicList) {
-            System.out.println(item);
+        if (musicList.isEmpty()) {
+            System.out.println("暂无歌曲");
+        }else {
+            for (Song item : musicList) {
+                System.out.println(item);
+            }
         }
     }
 
