@@ -17,7 +17,6 @@ public class PlayListCollection {
     public void addPlayList(PlayList playList) {
         //播放列表名称作为key,map自带不可重复功能
         playListMap.put(playList.getPlayListName(), playList);
-        System.out.println("添加成功!");
     }
 
     //删除播放列表

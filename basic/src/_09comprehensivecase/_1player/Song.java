@@ -1,5 +1,6 @@
 package src._09comprehensivecase._1player;
 
+import java.io.Serializable;
 import java.util.Objects;
 
 /**
@@ -8,7 +9,7 @@ import java.util.Objects;
  * @Author: Jiang
  * @Date: 2020/12/28 15:35
  */
-public class Song {
+public class Song implements Serializable {
     private String id;//歌曲id
     private String name;//歌曲名
     private String singer;//演唱者

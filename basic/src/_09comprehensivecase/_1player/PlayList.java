@@ -2,6 +2,7 @@ package src._09comprehensivecase._1player;
 
 import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
 
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -107,6 +108,28 @@ public class PlayList {
     //按歌曲名升序进行排序
     public void sortBySongName() {
         Collections.sort(musicList,new NameComparator());
+    }
+
+    //导出歌单到txt功能(按歌曲名称升序排序)
+    public void downloadPlayList() {
+        try {
+
+                FileOutputStream fos = new FileOutputStream("basic//src//_08io//_3bytestream//file//"+playListName+".txt",true);
+                ObjectOutputStream oos = new ObjectOutputStream(fos);
+                sortBySongName();
+                for (Song song : musicList) {
+                    oos.writeObject(song);
+                }
+                oos.close();
+                fos.close();
+                System.out.println("导出成功！");
+            } catch (FileNotFoundException e) {
+                System.out.println("导出失败:"+e);
+                e.printStackTrace();
+            } catch (IOException e) {
+                System.out.println("导出失败:"+e);
+                e.printStackTrace();
+            }
     }
 
     //构造方法

@@ -10,6 +10,9 @@ import java.util.Scanner;
  */
 public class TestDemo {
     /**
+     * 注：scanner的next方法不能接收空格
+     */
+    /**
      * 对歌曲类Song进行测试
      */
     public void testSong() {
@@ -124,6 +127,7 @@ public class TestDemo {
         System.out.println("            5--修改播放列表中的歌曲");
         System.out.println("            6--删除播放列表中的歌曲");
         System.out.println("            7--显示播放列表中的所有歌曲");
+        System.out.println("            8--导出歌单");
         System.out.println("            9--返回上一级菜单");
         System.out.println("********************************************");
     }
@@ -156,13 +160,40 @@ public class TestDemo {
         plc.addPlayList(mainPlayList);
         //普通播放列表容器
         PlayList favouritePlayList=null;
+        //是否退出
+        boolean islogout = false;
         while (true) {
             td.mainMenu();
             System.out.println("请输入对应数字进行操作:");
             input = sc.nextInt();
-            if (input == 0) {
-                System.out.println("已退出系统!");
-                break;
+            if (input == 0) { //完善退出逻辑,增加二次确认
+                System.out.println("确认要退出系统吗？(Y/N)");
+                String logout=sc.next();
+                if (logout.toUpperCase().equals("Y")) {
+                    System.out.println("已退出系统!");
+                    break;
+                } else if(logout.toUpperCase().equals("N")) {
+                    continue;
+                } else {
+                    while(true){
+                        System.out.println("请输入Y或N选择是否退出系统：");
+                        logout=sc.next();
+                        if (logout.toUpperCase().equals("Y")) {
+                            System.out.println("已退出系统!");
+                            islogout = true;
+                            break;
+                        } else if(logout.toUpperCase().equals("N")) {
+                            break;
+                        } else {
+                            continue;
+                        }
+                    }
+                    if (islogout){
+                        break;
+                    } else{
+                        continue;
+                    }
+                }
             }
             switch (input) {
                 case 1:
@@ -326,6 +357,19 @@ public class TestDemo {
                                     pl4.disPlayAllSong();
                                 }
                                 break;
+                            case 8:
+                                System.out.println("导出歌单到txt文件(按歌曲名称升序排序)");
+                                System.out.println("请输入要导出播放列表的名字：");
+                                String strPlayListName6=sc.next();
+                                PlayList pl5=plc.searchPlayListByName(strPlayListName6);
+                                if(pl5==null){
+                                    System.out.println("该播放列表不存在！");
+                                }else if(pl5.getMusicList().isEmpty()){
+                                    System.out.println("当前播放列表中暂无歌曲，导出失败！");
+                                } else {
+                                    pl5.downloadPlayList();
+                                }
+                                break;
                             default:
                                 System.out.println("该歌曲没有对应的操作！");
                                 break;
@@ -349,6 +393,7 @@ public class TestDemo {
                                 favouritePlayList=new PlayList(playerName);
                                 //将播放列表添加到播放器Map
                                 plc.addPlayList(favouritePlayList);
+                                System.out.println("添加成功！");
                                 break;
                             case 2:
                                 System.out.println("从播放器删除播放列表");
