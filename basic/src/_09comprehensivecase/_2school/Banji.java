@@ -1,4 +1,4 @@
-package _09comprehensivecase._2school;
+package src._09comprehensivecase._2school;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -95,11 +95,11 @@ public class Banji {
      * @param stuNum 学号
      * @param score 语文成绩
      */
-    public void insertChineseScore(String stuNum, float score) {
+    public void insertChineseScore(String stuNum, float score) {//todo 逻辑需修改，选择班级后，回显各个学生信息，并添加成绩
         Student student = searchStudentByNum(stuNum);
         if (student != null) {
             student.setChinese(score);
-            System.out.println("修改成功!");
+            System.out.println("语文成绩添加/修改成功!");
         } else {
             System.out.println("没有找到学号为"+stuNum+"的学生信息!");
         }
@@ -110,11 +110,11 @@ public class Banji {
      * @param stuNum 学号
      * @param score 数学成绩
      */
-    public void insertMathScore(String stuNum, float score) {
+    public void insertMathScore(String stuNum, float score) { //todo 逻辑需修改，选择班级后，回显各个学生信息，并添加成绩
         Student student = searchStudentByNum(stuNum);
         if (student != null) {
             student.setMath(score);
-            System.out.println("修改成功!");
+            System.out.println("数学成绩添加/修改成功!");
         } else {
             System.out.println("没有找到学号为"+stuNum+"的学生信息!");
         }

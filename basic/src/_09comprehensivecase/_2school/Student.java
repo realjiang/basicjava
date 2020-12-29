@@ -1,4 +1,4 @@
-package _09comprehensivecase._2school;
+package src._09comprehensivecase._2school;
 
 import java.util.Objects;
 
