@@ -75,17 +75,18 @@ public class School {
     /**
      * 对各班语文成绩按平均分进行由大到小排序
      */
-     public void sortChineseByAverage() { //todo 逻辑需完善，要打印出平均分所在班级
+     public void sortChineseByAverage() {
          //各班班级名称+语文平均分集合 map
-//         Map<String, Object> scoreList = new HashMap<>();
-         //各班级语文平均分集合
-         List<Float> avrList = new ArrayList<>();
+         Map<String, Float> scoreList = new HashMap<>();
          //尚未添加学生的班级数
          int noStuNum = 0;
          //得到各班级集合
          Collection<Banji> values = schoolMap.values();
          //计算各班级语文平均分，装入arvList
          for (Banji banji : values) {
+             if (banji.getClassName().equals("主班级列表")) {
+                 continue;
+             }
              //当前班级学生集合
              List<Student> stuList = banji.getStuList();
              //各班语文成绩总分数
@@ -99,19 +100,20 @@ public class School {
                      totalScore = totalScore + student.getChinese();
                  }
                  float avr = totalScore / stuList.size();
-                 avrList.add(avr);
-//                 scoreList.put(banji.getClassName(), avr);
+                 scoreList.put(banji.getClassName(), avr);
              }
          }
          if (values.size()==noStuNum){ //如果所有班级都没有学生，提示添加学生
              System.out.println("所有班级尚无学生信息，请添加学生信息");
          } else { //否则返回平均分
              //集合排序
-             Collections.sort(avrList,new ScoreComparator());
+             Set<Map.Entry<String, Float>> scoreEntries = scoreList.entrySet();
+             List<Map.Entry<String, Float>> scoreMaps = new ArrayList<>(scoreEntries);
+             Collections.sort(scoreMaps,new ScoreComparator());
              //打印
              System.out.println("各班级语文平均分从大到小排序为：");
-             for (int i = 0; i < avrList.size(); i++) {
-                 System.out.println(avrList.get(i));
+             for (Map.Entry<String, Float> score : scoreMaps) {
+                 System.out.println(score.getKey()+"的语文平均分："+score.getValue());
              }
          }
      }
@@ -120,14 +122,17 @@ public class School {
      * 对各班数学成绩按平均分进行由大到小排序
      */
      public void sortMathByAverage() {
-         //各班级数学平均分集合
-         List<Float> avrList = new ArrayList<>();
+         //各班班级名称+语文平均分集合 map
+         Map<String, Float> scoreList = new HashMap<>();
          //尚未添加学生的班级数
          int noStuNum = 0;
          //得到各班级集合
          Collection<Banji> values = schoolMap.values();
          //计算各班级数学平均分，装入arvList
          for (Banji banji : values) {
+             if (banji.getClassName().equals("主班级列表")) {
+                 continue;
+             }
              List<Student> stuList = banji.getStuList();
              //各班数学成绩总分数
              float totalScore = 0;
@@ -140,18 +145,20 @@ public class School {
                      totalScore = totalScore + student.getMath();
                  }
                  float avr = totalScore / stuList.size();
-                 avrList.add(avr);
+                 scoreList.put(banji.getClassName(), avr);
              }
          }
          if (values.size()==noStuNum){ //如果所有班级都没有学生，提示添加学生
              System.out.println("所有班级尚无学生信息，请添加学生信息");
          } else { //否则返回平均分
              //集合排序
-             Collections.sort(avrList,new ScoreComparator());
+             Set<Map.Entry<String, Float>> scoreEntries = scoreList.entrySet();
+             List<Map.Entry<String, Float>> scoreMaps = new ArrayList<>(scoreEntries);
+             Collections.sort(scoreMaps,new ScoreComparator());
              //打印
              System.out.println("各班级数学平均分从大到小排序为：");
-             for (int i = 0; i < avrList.size(); i++) {
-                 System.out.println(avrList.get(i));
+             for (Map.Entry<String, Float> score : scoreMaps) {
+                 System.out.println(score.getKey()+"的数学平均分："+score.getValue());
              }
          }
      }

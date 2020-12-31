@@ -132,27 +132,32 @@ public class TestDemo {
         mainBanji.addStudent(s3);
         mainBanji.displayAllStudent();
         //定义一个新的班级列表,从主班级列表添加学生进来
-        Banji newBanji = new Banji("b002","新班级");
+        Banji newBanji = new Banji("b002","一班");
         newBanji.addStudent(mainBanji.getStuList().get(0));
         newBanji.addStudent(mainBanji.getStuList().get(1));
         newBanji.displayAllStudent();
+        Banji newBanji2 = new Banji("b003","二班");
+        newBanji2.addStudent(mainBanji.getStuList().get(2));
+        newBanji2.addStudent(mainBanji.getStuList().get(1));
+        newBanji2.displayAllStudent();
         //将两个学生列表添加到学校中
         School school = new School();
         school.addBanji(mainBanji);
         school.addBanji(newBanji);
+        school.addBanji(newBanji2);
         school.displayBanJiName();
         //根据名字查询学生列表,并显示学生列表中所有学生
-        Banji banji = school.searchByName("新班级");
+        Banji banji = school.searchByName("一班");
         banji.displayAllStudent();
         //各班级语文平均分排序
         school.sortChineseByAverage();
         //各班级数学平均分排序
         school.sortMathByAverage();
         //删除班级列表
-        System.out.println("删除前:");
-        school.displayBanJiName();
-        school.deleteBanji(banji);
-        System.out.println("删除后:");
-        school.displayBanJiName();
+//        System.out.println("删除前:");
+//        school.displayBanJiName();
+//        school.deleteBanji(banji);
+//        System.out.println("删除后:");
+//        school.displayBanJiName();
     }
 }
