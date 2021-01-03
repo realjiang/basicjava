@@ -67,6 +67,7 @@ public class Banji {
             System.out.println("学号:"+stu.getStuNum()+",姓名:"+stu.getStuName()+"的学生信息已存在于班级列表中,添加失败!");
         } else {
             stuList.add(stu);
+            System.out.println("添加成功");
         }
     }
 
@@ -97,12 +98,8 @@ public class Banji {
      */
     public void insertChineseScore(String stuNum, float score) {//todo 逻辑需修改，选择班级后，回显各个学生信息，并添加成绩
         Student student = searchStudentByNum(stuNum);
-        if (student != null) {
-            student.setChinese(score);
-            System.out.println("语文成绩添加/修改成功!");
-        } else {
-            System.out.println("没有找到学号为"+stuNum+"的学生信息!");
-        }
+        student.setChinese(score);
+        System.out.println("添加语文成绩成功");
     }
 
     /**
@@ -112,12 +109,8 @@ public class Banji {
      */
     public void insertMathScore(String stuNum, float score) { //todo 逻辑需修改，选择班级后，回显各个学生信息，并添加成绩
         Student student = searchStudentByNum(stuNum);
-        if (student != null) {
-            student.setMath(score);
-            System.out.println("数学成绩添加/修改成功!");
-        } else {
-            System.out.println("没有找到学号为"+stuNum+"的学生信息!");
-        }
+        student.setMath(score);
+        System.out.println("添加数学成绩成功");
     }
 
     /**
@@ -128,9 +121,9 @@ public class Banji {
         Student student = searchStudentByNum(stuNum);
         if (student != null) {
             stuList.remove(student);
-            System.out.println("删除成功!");
+            System.out.println("删除成功");
         } else {
-            System.out.println("没有找到学号为"+stuNum+"的学生信息!");
+            System.out.println("没有找到学号为"+stuNum+"的学生信息");
         }
     }
 
@@ -138,9 +131,8 @@ public class Banji {
      * 显示所有学生的信息（包括学号和姓名）
      */
     public void displayAllStudent() {
-        System.out.println("学生列表中所有学生信息为:");
         if (stuList.isEmpty()) {
-            System.out.println("该班级暂无学生!");
+            System.out.println("该班级暂无学生");
         } else {
             for (Student student : stuList) {
                 System.out.println(student);

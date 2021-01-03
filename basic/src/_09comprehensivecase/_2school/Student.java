@@ -12,7 +12,16 @@ public class Student{
     private float chinese;//语文成绩
 
     /**
-     * 构造方法
+     * 构造方法(学号+姓名)
+     * @param stuNum 学号
+     * @param stuName 姓名
+     */
+    public Student(String stuNum, String stuName) {
+        this.setStuNum(stuNum);
+        this.setStuName(stuName);
+    }
+    /**
+     * 全参构造方法
      * @param stuNum 学号
      * @param stuName 姓名
      * @param math 数学成绩
@@ -24,7 +33,6 @@ public class Student{
         this.setMath(math);
         this.setChinese(chinese);
     }
-
     /**
      * get和set方法
      */
@@ -92,10 +100,9 @@ public class Student{
      */
     @Override
     public String toString() {
-        return "学生信息:" +
-                "学号为:" + stuNum +
-                ",姓名为:" + stuName +
-                ", 数学成绩为:" + math +
-                ", 语文成绩为:" + chinese;
+        return "学生信息:[" +
+                "学号:" + stuNum +
+                ",姓名:" + stuName +
+                "]";
     }
 }
