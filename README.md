@@ -1,5 +1,6 @@
 # java代码总结
 **陆续更新中~~~**
+
 - basic - 基础代码
     - _01objectoriented - 面向对象
         - encapsulation - 封装
@@ -50,9 +51,10 @@
         - charstream - 字符流
         - serial - 对象的序列化与反序列化
     - _09comprehensivecase - 综合案例
-    - _10jdbc - java数据库连接
     - constants - 常量
     - utils - 工具类
         - id - id工具类
         - trans - 类型转换工具类
         - collection - 集合相关
+- advanced - 进阶代码
+    - _01jdbc - java数据库连接
