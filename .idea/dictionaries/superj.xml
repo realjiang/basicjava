@@ -5,13 +5,17 @@
       <w>bytestream</w>
       <w>charstream</w>
       <w>comprehensivecase</w>
+      <w>desp</w>
       <w>happycopy</w>
       <w>imooc</w>
       <w>iotest</w>
       <w>islogout</w>
       <w>jiang</w>
       <w>mariadb</w>
+      <w>psmt</w>
+      <w>pstmt</w>
       <w>superj</w>
+      <w>throwables</w>
     </words>
   </dictionary>
 </component>
