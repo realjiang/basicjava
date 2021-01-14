@@ -35,8 +35,8 @@ public class HumanResourceApplication {
                 command.execute();
                 break;
             case 5:
-//                command = new PaginationCommand();
-//                command.execute();
+                command = new PaginationCommand();
+                command.execute();
                 break;
         }
     }

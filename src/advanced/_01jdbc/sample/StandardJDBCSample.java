@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 
 /**
- * 标准JDBC操作五步骤
+ * 1。标准JDBC操作五步骤
  */
 public class StandardJDBCSample {
     public static void main(String[] args) {

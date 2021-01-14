@@ -1,7 +1,6 @@
-package advanced._01jdbc.sample;
+package advanced._01jdbc.sample.test1;
 
 import advanced._01jdbc.common.DbUtils;
-import advanced._01jdbc.hrapp.command.*;
 
 import java.sql.*;
 import java.util.Scanner;

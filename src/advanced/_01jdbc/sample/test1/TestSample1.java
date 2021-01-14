@@ -1,4 +1,4 @@
-package advanced._01jdbc.sample;
+package advanced._01jdbc.sample.test1;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
