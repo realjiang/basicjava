@@ -38,7 +38,7 @@ public class PaginationCommand implements Command{
                 String dname = rs.getString("dname");
                 //JDBC获取日期使用java.sql.Date,其继承自java.util.Date
                 //所以两者互相兼容
-                Date hiredate = rs.getDate("hiredate");
+                Date hiredate = rs.getDate("hiredate");// 没有getDatetime
                 Employee emp = new Employee();
                 emp.setEno(eno);
                 emp.setEname(ename);
