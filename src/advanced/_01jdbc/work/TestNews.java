@@ -120,7 +120,7 @@ public class TestNews {
      */
     public static void search() {
         Properties properties = new Properties();
-        String propertyFile = DbUtilsSample.class.getResource("/druid-config.properties").getPath();
+        String propertyFile = TestNews.class.getResource("/druid-config.properties").getPath();
         try {
             propertyFile = new URLDecoder().decode(propertyFile, "UTF-8");
             properties.load(new FileInputStream(propertyFile));
@@ -143,7 +143,7 @@ public class TestNews {
      */
     public static int searchById(Integer id) {
         Properties properties = new Properties();
-        String propertyFile = DbUtilsSample.class.getResource("/druid-config.properties").getPath();
+        String propertyFile = TestNews.class.getResource("/druid-config.properties").getPath();
         try {
             propertyFile = new URLDecoder().decode(propertyFile, "UTF-8");
             properties.load(new FileInputStream(propertyFile));
@@ -179,7 +179,7 @@ public class TestNews {
         System.out.println("请输入要修改的新闻内容：");
         String content = in.next();
         Properties properties = new Properties();
-        String propertyFile = DbUtilsSample.class.getResource("/druid-config.properties").getPath();
+        String propertyFile = TestNews.class.getResource("/druid-config.properties").getPath();
         Connection conn = null;
         try {
             propertyFile = new URLDecoder().decode(propertyFile, "UTF-8");
@@ -216,7 +216,7 @@ public class TestNews {
         Scanner in = new Scanner(System.in);
         Integer id = in.nextInt();
         Properties properties = new Properties();
-        String propertyFile = DbUtilsSample.class.getResource("/druid-config.properties").getPath();
+        String propertyFile = TestNews.class.getResource("/druid-config.properties").getPath();
         Connection conn = null;
         try {
             propertyFile = new URLDecoder().decode(propertyFile, "UTF-8");

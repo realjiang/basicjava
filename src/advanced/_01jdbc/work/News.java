@@ -22,7 +22,7 @@ public class News {
      * @param id id
      * @param title 标题
      * @param content 内容
-     * @param createTime 创建时间
+     * @param create_time 创建时间
      */
     public News(int id, String title, String content, Date create_time) {
         this.id = id;
