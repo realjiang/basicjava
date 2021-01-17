@@ -8,6 +8,10 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
+/**
+ * c3p0案例
+ * c3p0-config.xml配置文件
+ */
 public class C3P0Sample {
     public static void main(String[] args) {
         //1. 加载配置文件

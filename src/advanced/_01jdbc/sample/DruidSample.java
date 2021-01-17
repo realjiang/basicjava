@@ -12,6 +12,7 @@ import java.util.Properties;
 
 /**
  * Druid连接池配置与使用
+ * druid-config.properties配置文件
  */
 public class DruidSample {
     public static void main(String[] args) {
