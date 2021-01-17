@@ -10,7 +10,7 @@ public class ClassSample {
     public static void main(String[] args) {
         try {
             //Class.forName()方法将指定的类加载到jvm,并返回对应Class对象
-            Class employeeClass = Class.forName("com.imooc.reflect.entity.Employee");
+            Class employeeClass = Class.forName("advanced._04reflect.demo2.entity.Employee");
             System.out.println("Employee已被加载到jvm");
             //newInstance通过默认构造方法创建新的对象
             Employee emp = (Employee)employeeClass.newInstance();
