@@ -5,8 +5,6 @@ import advanced._01jdbc.common.DbUtils;
 import java.sql.*;
 import java.util.Scanner;
 
-import static com.sun.tools.javadoc.Main.execute;
-
 /**
  * 例题3 preparedStatement实现增删改
  */
