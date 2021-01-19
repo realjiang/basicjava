@@ -58,8 +58,7 @@
         - collection - 集合相关
 - advanced - 进阶代码
     - _01jdbc - java数据库连接
-    _ _02maven - 项目管理工具
-    _ _03factory - 工厂模式
-    _ _04reflect - 反射
-    _ _05lambda - lambda表达式
-    _ _06mybatis - mybatis
+    - _02maven - 项目管理工具
+    - _03factory - 工厂模式
+    - _04reflect - 反射
+    - _05lambda - lambda表达式
