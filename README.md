@@ -34,6 +34,7 @@
         - sort - 排序
             - Comparator接口(位于java.util)
             - Comparable接口(位于java.lang)
+        - dr - 去重
     - _06generics - 泛型
         - 泛型作为方法参数
         - 自定义泛型类
