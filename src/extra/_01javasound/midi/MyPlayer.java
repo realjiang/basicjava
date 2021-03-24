@@ -7,7 +7,7 @@ import javax.sound.midi.Sequencer;
 /**
  * 标题: 模拟一个音乐播放程序demo - JavaSound的MIDI类
  *
- * @Author: Jiang yuting
+ * @Author: Jiang
  * @Date: 2021/3/23 13:18
  */
 public class MyPlayer {

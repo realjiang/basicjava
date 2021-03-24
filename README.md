@@ -63,6 +63,7 @@
     - _03factory - 工厂模式
     - _04reflect - 反射
     - _05lambda - lambda表达式
+    - _06GUI - 图形化界面接口
 
 - extra - 其他代码
     - _01javasound - JavaSound API
